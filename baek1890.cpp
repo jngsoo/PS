@@ -33,9 +33,10 @@ void print_as_input() {
 
 int main() {
     
-    //    input();
-    //    print_gamepan();
+    input();
+    print_gamepan();
     
     print_as_input();
+
     return 0;
 }

@@ -9,7 +9,7 @@ using namespace std;
 int n;
 int inputdata[100][100];
 int map[100][100];
-queue <pair<int, int>> que;
+queue <pair<int, int> > que;
 
 //하-좌-우-상
 int dx[4] = { 0, -1, 1, 0 };

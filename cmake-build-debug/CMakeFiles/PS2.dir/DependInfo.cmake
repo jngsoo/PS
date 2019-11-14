@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/jngsoo/Desktop/PS2/prac.cpp" "/Users/jngsoo/Desktop/PS2/cmake-build-debug/CMakeFiles/PS2.dir/prac.cpp.o"
+  "/Users/jngsoo/Desktop/PS/prac.cpp" "/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles/PS2.dir/prac.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

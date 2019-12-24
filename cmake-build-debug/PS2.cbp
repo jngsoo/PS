@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/jngsoo/Desktop/PS/prac.cpp">
+		<Unit filename="/Users/jngsoo/Desktop/PS/main.cpp">
 			<Option target="PS2"/>
 		</Unit>
 		<Unit filename="/Users/jngsoo/Desktop/PS/CMakeLists.txt">

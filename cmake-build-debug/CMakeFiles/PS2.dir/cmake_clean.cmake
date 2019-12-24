@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PS2.dir/prac.cpp.o"
+  "CMakeFiles/PS2.dir/main.cpp.o"
   "PS2"
   "PS2.pdb"
 )

@@ -3,4 +3,4 @@ project(PS2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PS2 prac.cpp)
+add_executable(PS2 main.cpp)

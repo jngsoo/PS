@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/jngsoo/Desktop/PS/prac.cpp
+/Users/jngsoo/Desktop/PS/main.cpp
+stdio.h
+-
+string.h
+-
 iostream
+-
+algorithm
+-
+vector
 -
 

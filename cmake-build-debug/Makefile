@@ -123,32 +123,32 @@ PS2/fast:
 	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/build
 .PHONY : PS2/fast
 
-prac.o: prac.cpp.o
+main.o: main.cpp.o
 
-.PHONY : prac.o
+.PHONY : main.o
 
 # target to build an object file
-prac.cpp.o:
-	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/prac.cpp.o
-.PHONY : prac.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-prac.i: prac.cpp.i
+main.i: main.cpp.i
 
-.PHONY : prac.i
+.PHONY : main.i
 
 # target to preprocess a source file
-prac.cpp.i:
-	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/prac.cpp.i
-.PHONY : prac.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-prac.s: prac.cpp.s
+main.s: main.cpp.s
 
-.PHONY : prac.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-prac.cpp.s:
-	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/prac.cpp.s
-.PHONY : prac.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/PS2.dir/build.make CMakeFiles/PS2.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PS2"
-	@echo "... prac.o"
-	@echo "... prac.i"
-	@echo "... prac.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -57,27 +57,27 @@ include CMakeFiles/PS2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PS2.dir/flags.make
 
-CMakeFiles/PS2.dir/prac.cpp.o: CMakeFiles/PS2.dir/flags.make
-CMakeFiles/PS2.dir/prac.cpp.o: ../prac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PS2.dir/prac.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PS2.dir/prac.cpp.o -c /Users/jngsoo/Desktop/PS/prac.cpp
+CMakeFiles/PS2.dir/main.cpp.o: CMakeFiles/PS2.dir/flags.make
+CMakeFiles/PS2.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PS2.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PS2.dir/main.cpp.o -c /Users/jngsoo/Desktop/PS/main.cpp
 
-CMakeFiles/PS2.dir/prac.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PS2.dir/prac.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jngsoo/Desktop/PS/prac.cpp > CMakeFiles/PS2.dir/prac.cpp.i
+CMakeFiles/PS2.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PS2.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jngsoo/Desktop/PS/main.cpp > CMakeFiles/PS2.dir/main.cpp.i
 
-CMakeFiles/PS2.dir/prac.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PS2.dir/prac.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jngsoo/Desktop/PS/prac.cpp -o CMakeFiles/PS2.dir/prac.cpp.s
+CMakeFiles/PS2.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PS2.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jngsoo/Desktop/PS/main.cpp -o CMakeFiles/PS2.dir/main.cpp.s
 
 # Object files for target PS2
 PS2_OBJECTS = \
-"CMakeFiles/PS2.dir/prac.cpp.o"
+"CMakeFiles/PS2.dir/main.cpp.o"
 
 # External object files for target PS2
 PS2_EXTERNAL_OBJECTS =
 
-PS2: CMakeFiles/PS2.dir/prac.cpp.o
+PS2: CMakeFiles/PS2.dir/main.cpp.o
 PS2: CMakeFiles/PS2.dir/build.make
 PS2: CMakeFiles/PS2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PS2"

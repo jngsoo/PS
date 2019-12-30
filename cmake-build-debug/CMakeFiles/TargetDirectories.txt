@@ -1,3 +1,0 @@
-/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jngsoo/Desktop/PS/cmake-build-debug/CMakeFiles/PS2.dir

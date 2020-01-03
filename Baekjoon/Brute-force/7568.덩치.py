@@ -1,3 +1,6 @@
+# PASS 쉬운편
+# 숫자 입력 int로 치환 없어도 될듯
+
 def getInput():
     num = int(input())
     sizeList = []

@@ -38,5 +38,5 @@ g.addEdge(2, 0)
 g.addEdge(2, 3)
 g.addEdge(3, 3)
 
-print("Following is DFS from (starting from vertex )")
+print("Following is DFS&BFS from (starting from vertex )")
 g.DFS(3)

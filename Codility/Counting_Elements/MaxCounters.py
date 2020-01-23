@@ -1,5 +1,15 @@
+# PASS
 def solution(N, A):
-    pass
+    counter = [0] * N
+    max_counter = next_max_counter = 0
+    for elem in A:
+        if elem <= N:
+            current_counter = counter[elem - 1] = max(counter[elem - 1] + 1, max_counter + 1)
+            next_max_counter = max(current_counter, next_max_counter)
+        else:
+            max_counter = next_max_counter
+
+    return [v if v > max_counter else max_counter for v in counter]
 
 print(solution(5, [3,4,4,6,1,4,4]))
 

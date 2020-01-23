@@ -1,45 +1,36 @@
-# Get input
-n = int(input())
-userInputList = []
-for _ in range(n):
-    userInputNum = int(input())
-    userInputList.append(userInputNum)
+def get_input():
+    n = int(input())
+    arr = []
+    for _ in range(n):
+        num = int(input())
+        arr.append(num)
 
-def mergeSort(arr):
-    if len(arr) <= 1:
-        return
+    return arr
 
-    mid = len(arr)//2
-    left = arr[:mid]
-    right = arr[mid:]
+def devide_and_conquer(arr, low, high):
+    i = low - 1
+    pivot = arr[high]
 
-    mergeSort(left)
-    mergeSort(right)
-
-    i = j = k = 0
-
-    while (i < len(left)) and (j < len(right)):
-
-        if (left[i] < right[j]):
-            arr[k] = left[i]
+    for idx in range(low, high):
+        if arr[idx] < pivot:
             i += 1
+            arr[i], arr[idx] = arr[idx], arr[i]
 
-        elif (left[i] >= right[j]):
-            arr[k] = right[j]
-            j += 1
-        k += 1
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
 
-    while (i < len(left)):
-        arr[k] = left[i]
-        i += 1
-        k += 1
+    return i + 1
 
-    while (j < len(right)):
-        arr[k] = right[j]
-        j += 1
-        k += 1
 
-# print(userInputList)
-mergeSort(userInputList)
-for elem in userInputList:
-    print(elem)
+def quick_sort(arr, low, high):
+
+    if low < high:
+
+        idx = devide_and_conquer(arr, low, high)
+        quick_sort(arr, low, idx - 1)
+        quick_sort(arr, idx + 1, high)
+
+
+test_case = get_input()
+quick_sort(test_case, 0, len(test_case)-1)
+for i in test_case:
+    print(i)
